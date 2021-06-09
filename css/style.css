@@ -1,0 +1,61 @@
+body{
+    background-color: #000;
+    color: #fff;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.header{
+    margin-bottom: 80px;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    margin-right: 50px;
+}
+
+.menu{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item{
+    margin-right: 30px;
+    list-style: none;
+}
+
+.menu-link{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Roboto', sans-serif;
+}
+
+.film-date{
+    font-size: 24px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Roboto', sans-serif;
+    display:block;
+    margin-bottom: 38px;
+}
+
+.film-img{
+    margin-bottom: 40px;
+}
+
+.film-description{
+    margin: 0;
+    padding: 0;
+    max-width: 422px;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Roboto', sans-serif;
+}
